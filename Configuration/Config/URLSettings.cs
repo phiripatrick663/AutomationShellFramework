@@ -2,7 +2,7 @@
 {
     public class URLSettings
     {
-        public static string DemoMedeURL
+        public static string DemoURL
         {
             get
             {
