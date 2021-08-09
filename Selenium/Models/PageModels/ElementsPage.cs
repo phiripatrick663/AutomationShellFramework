@@ -96,5 +96,101 @@ namespace Selenium.Models.PageModels
                 return _seleniumExtGeneral.FindElementBy(By.CssSelector("p#permanentAddress"));
             }
         }
+
+        public IWebElement WebTablesAddButton
+        {
+            get
+            {
+                return _seleniumExtGeneral.FindElementBy(By.CssSelector("#addNewRecordButton"));
+            }
+        }
+
+        public IWebElement WebTablesFirstNameField
+        {
+            get
+            {
+                return _seleniumExtGeneral.FindElementBy(By.CssSelector("#firstName"));
+            }
+        }
+
+        public IWebElement WebTablesLastNameField
+        {
+            get
+            {
+                return _seleniumExtGeneral.FindElementBy(By.CssSelector("#lastName"));
+            }
+        }
+
+        public IWebElement WebTablesEmailField
+        {
+            get
+            {
+                return _seleniumExtGeneral.FindElementBy(By.CssSelector("#userEmail"));
+            }
+        }
+
+        public IWebElement WebTablesAgeField
+        {
+            get
+            {
+                return _seleniumExtGeneral.FindElementBy(By.CssSelector("#age"));
+            }
+        }
+
+        public IWebElement WebTablesSalaryField
+        {
+            get
+            {
+                return _seleniumExtGeneral.FindElementBy(By.CssSelector("#salary"));
+            }
+        }
+
+        public IWebElement WebTablesDepartmentField
+        {
+            get
+            {
+                return _seleniumExtGeneral.FindElementBy(By.CssSelector("#department"));
+            }
+        }
+
+        public IWebElement WebTablesSubmitButton
+        {
+            get
+            {
+                return _seleniumExtGeneral.FindElementBy(By.CssSelector("#submit"));
+            }
+        }
+
+        public IWebElement WebTablesSearchBox
+        {
+            get
+            {
+                return _seleniumExtGeneral.FindElementBy(By.CssSelector("#searchBox"));
+            }
+        }
+
+        public IWebElement WebTablesFirstRow
+        {
+            get
+            {
+                return _seleniumExtGeneral.FindElementBy(By.CssSelector("div.ReactTable.-striped.-highlight>div.rt-table"));
+            }
+        }
+
+        public IWebElement WebTablesEditButton
+        {
+            get
+            {
+                return _seleniumExtGeneral.FindElementBy(By.XPath("//*[@title='Edit']"));
+            }
+        }
+
+        public IWebElement WebTablesDeleteButton
+        {
+            get
+            {
+                return _seleniumExtGeneral.FindElementBy(By.XPath("//*[@title='Delete']"));
+            }
+        }
     }
 }
