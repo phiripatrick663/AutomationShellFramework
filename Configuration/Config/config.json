@@ -8,6 +8,7 @@
     "**/platforms"
   ],
   "DemoURL": "https://www.google.com/",
+  "DemoProjectURL": "https://demoqa.com/",
   "UserName": "",
   "Password": "",
   "Browser": "Chrome"

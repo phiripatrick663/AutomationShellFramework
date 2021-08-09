@@ -9,5 +9,13 @@
                 return ConfigurationManager.GetJsonConfig.DemoURL;
             }
         }
+
+        public static string DemoProjectURL
+        {
+            get
+            {
+                return ConfigurationManager.GetJsonConfig.DemoProjectURL;
+            }
+        }
     }
 }

@@ -7,11 +7,13 @@ namespace Selenium.Models.PageModels
     {
         public IWebDriver _browser;
         protected SeleniumExtGeneral _seleniumExtGeneral;
+        protected SeleniumExtActions _seleniumExtActions;
 
         public BasePage(IWebDriver browser)
         {
             _browser = browser;
             _seleniumExtGeneral = new SeleniumExtGeneral(_browser);
+            _seleniumExtActions = new SeleniumExtActions(_browser);
         }
     }
 }
